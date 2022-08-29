@@ -126,6 +126,12 @@ hr {
   border-top: 1px solid #EEEDDE;
 }
 
+li {
+  margin-top: 35px;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
 }
