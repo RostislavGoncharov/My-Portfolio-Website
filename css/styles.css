@@ -58,6 +58,7 @@
 
 .contact-me {
   height: 20%;
+  margin: 5% 0;
 }
 
 .mid-link {
@@ -93,7 +94,7 @@
   color: #E0DDAA;
   font-family: "Press Start 2P", sans-serif;
   font-size: 2rem;
-  margin: 20 0;
+  margin: 5% 0;
   display: inline-block;
   width: 30%;
 }
