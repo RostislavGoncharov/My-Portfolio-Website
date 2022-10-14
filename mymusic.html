@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Music</title>
+    <title>Music & Art Projects</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -11,36 +11,103 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&family=Special+Elite&family=Turret+Road&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
 
   <body>
-    <div class="middle-container">
-      <a class="btn" href="index.html">Back</a>
+    <div class="top-container-page-title">
+      <p>Music & Art Projects</p>
     </div>
 
-    <div class="top-container-secondary">
-      <h1 class="secondary-page-h1">My Music</h1>
+    <div class="cards">
+      <form class="card" action="genart.html">
+        <button>
+          <p class="card-title">(.NET) Generative Art App</p>
+          <img src="images/genart.png" alt="DotNet Generative Art App image">
+        </button>
+      </form>
+
+      <form class="card" action="vr.html">
+        <button>
+          <p class="card-title">(Unity VR) Generative Music App</p>
+          <img src="images/vr.png" alt="VR Generative Music App image">
+        </button>
+      </form>
+
+      <form class="card" action="musicprojects.html">
+        <button>
+          <p class="card-title">Music Projects</p>
+          <img src="images/music.png" alt="Music Projects image">
+        </button>
+      </form>
     </div>
 
-    <div class="middle-container">
-      <img class="music-img"src="images/music.png" alt="">
-      <div class="music-text">
-        <p class="mid-p">I've been making music for 10 years. My preferred genres are electronic ambient, drone, and shoegaze.</p>
-        <p class="mid-p">My main music project is <a href="https://cscd.bandcamp.com" class="mid-link">Cyborg See Cyborg Do</a> — check it out for a general idea of what music I make.</p>
-        <p class="mid-p">If you need a similar soundtrack for your project, feel free to <a class="mid-link" href="mailto:rostislav.goncharov.work@gmail.com">contact me</a>!</p>
-      </div>
+      <!-- <h2 class="mid-font">Book of Adventum</h2>
+      <img class="boa-img"src="images/boa.png" alt="">
+      <p class="mid-p">An old-school adventure/FPS developed by Dark Amber Softworks.</p>
+      <p class="mid-p">My contributions include part of the soundtrack (as <a href="https://cscd.bandcamp.com" class="mid-link">Cyborg See Cyborg Do</a>), a couple of voiceovers, Russian localization of all in-game text, and social media marketing.</p>
+      <p class="mid-p">Book of Adventum is available on <a href="https://store.steampowered.com/app/1672610/Book_of_Adventum/" class="mid-link">Steam</a> and <a href="https://www.xbox.com/en-us/games/store/book-of-adventum/9ncz4mwjz6f8" class="mid-link">Xbox</a> .</p>
     </div>
     <hr>
 
     <div class="middle-container">
-      <a class="btn" href="index.html">Back</a>
+      <h2 class="mid-font">Demonic Delight</h2>
+      <img class="boa-img"src="images/dd.png" alt="">
+      <p class="mid-p">A small Godot-based adventure/platformer game.</p>
+      <p class="mid-p">I joined the team on short notice to help prepare the demo for release. My contributions include:</p>
+      <ul class="mid-p">
+        <li>programming various gameplay interactions (level transitions, character movement, etc.)</li>
+        <li>developing multiple audio-related features (such as the interactive radio in the Park level)</li>
+        <li>extensive testing / bug fixing</li>
+      </ul>
+      <p class="mid-p">The demo has been released on <a href="https://demonicdelight.itch.io/the-demonic-delight" class="mid-link">itch.io</a>.</p>
+    </div>
+    <hr>
+
+    <div class="middle-container">
+      <h2 class="mid-font">Case Rajamuseo</h2>
+      <img class="boa-img"src="images/rajamuseo.png" alt="">
+      <p class="mid-p">A Unity-based app for Rajamuseo (the Border Guard Museum) in Imatra, Finland.</p>
+      <p class="mid-p">The app will allow museum visitors to create their own passport and go on a treasure hunt-like adventure during their tour.</p>
+      <p class="mid-p">I joined the team as a Unity/C# developer to assist them with completing the project. The part that I was involved in is a mobile app that allows visitors to design and print out a physical “passport”.  My contributions to the project include:</p>
+      <ul class="mid-p">
+        <li>programming multiple UI interactions (screen transitions, input fields, sliders, etc.)</li>
+        <li>programming a Scriptable Object-based language selection system</li>
+        <li>recording a few sounds</li>
+        <li>testing / bug fixing</li>
+      </ul>
+      <p class="mid-p">The project is a cooperation between Rajamuseo and XAMK (South-Eastern Finland University of Applied Sciences). It is scheduled to go live at Rajamuseo in 2023. Read more on the <a href="https://www.xamk.fi/en/research-and-development/utility-game-development-and-game-entrepreneurship-in-the-context-of-working-life-case-rajamuseo/" class="mid-link">XAMK page</a>.</p>
+    </div>
+    <hr>
+
+    <div class="middle-container">
+      <h2 class="mid-font">WIP: VR Generative Music App</h2>
+      <img class="boa-img"src="images/vr.png" alt="">
+      <p class="mid-p">A Unity-based prototype which can generate ambient soundscapes out of given audio files.</p>
+      <p class="mid-p">The currently built scene spawns spheres around the listener at randomized time intervals. Each sphere plays a random audio loop (recorded by me) out of a given selection. The spheres go on to move around the listener, resulting in a constantly changing soundtrack. <a href="https://youtu.be/YQ5QY_sWXoM" class="mid-link">Here's a brief screencap</a>.</p>
+      <p class="mid-p">The project can be found on my <a href="https://github.com/RostislavGoncharov/-Unity--VR-Generative-Music-App-Prototype" class="mid-link">GitHub page</a>.</p>
+    </div>
+    <hr>
+
+    <div class="middle-container">
+      <h2 class="mid-font">WIP: A Yet-Unnamed Puzzle / Adventure Game</h2>
+      <p class="mid-p">A Unity-based game with a mysterious vibe and a strong audiovisual focus. Currently in the early stages of production at Dark Amber Softworks.</p>
+      <p class="mid-p">I'm solely responsible for coding the game's prototype at this stage. I'm also recording music and sound effects for the project.</p>
+      <p class="mid-p">Check out a short <a href="https://drive.google.com/file/d/1J2mVQyyHdvN88KcHIvf_48b7uv847772/view?usp=sharing" class="mid-link">screencap</a> from a scene I recently built.</p>
+    </div>
+    <hr> -->
+
+    <div class="back-button">
+      <form action="index.html">
+        <input type="submit" value="Back">
+      </form>
     </div>
 
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/rostislav-goncharov/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/RostislavGoncharov/">GitHub</a>
-      <a class="footer-link" href="https://cscd.bandcamp.com/">Bandcamp</a>
-      <p>© Rostislav Goncharov, 2022</p>
+      <div class="footer-message">
+        <p>© Rostislav Goncharov, 2022</p>
+      </div>
     </div>
 
   </body>
+</html>
