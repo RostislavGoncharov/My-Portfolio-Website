@@ -8,10 +8,7 @@ body {
   margin: 0;
   min-height: 100vh;
   width: 100vw;
-}
-
-body.secondary {
-  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 a {
@@ -81,6 +78,7 @@ button {
   flex-basis: auto;
   flex-shrink: 1;
   gap: 4vw;
+  max-width: 100vw;
 }
 
 .top-container p {
@@ -90,7 +88,7 @@ button {
 }
 
 .top-container .links input {
-  font-size: 250%;
+  font-size: 40px;
   background-color: #EFEFEF;
   color: #112B3C;
   padding: 1vh 2vw;
@@ -134,7 +132,7 @@ button {
   border-color: #EFEFEF;
   border-width: 1%;
   border-radius: 3vw;
-  font-size: 250%;
+  font-size: 40px;
   width: 60vw;
 }
 
@@ -155,7 +153,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 150%;
+  font-size: 30px;
 }
 
 .back-button {
@@ -170,7 +168,7 @@ button {
 
 .back-button input {
   padding: 1vh 2vw;
-  font-size: 200%;
+  font-size: 40px;
   background-color: #112B3C;
   color: #F66B0E;
   border-style: solid;
@@ -195,7 +193,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 300%;
+  font-size: 40px;
   font-weight: bolder;
   width: 100vw;
   max-height: 10vh;
@@ -251,7 +249,7 @@ button {
 }
 
 .card-title {
-  font-size: 150%;
+  font-size: 20px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -264,8 +262,8 @@ button {
 .item-page .middle-container {
   color: #EFEFEF;
   text-align: left;
-  gap: 2vw;
-  padding: 2%;
+  gap: 2vh;
+  padding: 2vh;
   align-items: flex-start;
   max-width: 100vw;
 }
@@ -282,7 +280,7 @@ button {
 .item-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 5vh;
   flex: 1;
@@ -306,5 +304,33 @@ button {
 @media all and (max-width: 600px) {
   .cards {
     flex-direction: column;
-  }  
+  }
+  
+  .main-name {
+    font-size: 30px;
+  }
+
+  .main-title {
+    font-size: 20px;
+  }
+
+  .mainpage-links input, .top-container .links input {
+    font-size: 22px;
+  }
+
+  .top-container .links {
+    flex-direction: column;
+  }
+
+  .footer-message {
+    font-size: 15px;
+  }
+
+  .back-button input {
+    font-size: 25px;
+  }
+
+  .top-container-page-title {
+    font-size: 30px;
+  }
 }
