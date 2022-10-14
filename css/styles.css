@@ -53,6 +53,7 @@ button {
   min-height: 40vh;
   width: 100vw;
   padding: 3vh 0vw;
+  box-sizing: border-box;
 }
 
 .middle-container p {
@@ -213,12 +214,6 @@ button {
   padding: 7%;
 }
 
-@media screen and (max-width: 600px) {
-  .cards {
-    flex-direction: column;
-  }  
-}
-
 .card {
   display: flex;
   flex: 1;
@@ -272,18 +267,16 @@ button {
   gap: 2vw;
   padding: 2%;
   align-items: flex-start;
-}
-
-@media screen and (min-width: 600px) {
-  .item-page .middle-container {
-    flex-direction: row;
-  }
+  max-width: 100vw;
 }
 
 .item-page .middle-container img {
   width: 40vw;
   border-radius: 3vw;
   object-fit: cover;
+  flex: 1;
+  display: flex;
+  margin: auto;
 }
 
 .item-description {
@@ -292,10 +285,26 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 5vh;
+  flex: 1;
 }
 
 .item-description p {
   text-align: start;
   flex: auto;
   font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@media all and (min-width: 601px) {
+  .item-page .middle-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }  
 }
