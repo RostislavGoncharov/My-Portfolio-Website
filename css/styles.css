@@ -137,14 +137,14 @@ button {
 }
 
 .main-name {
-  font-size: 400%;
+  font-size: 40px;
   font-weight: bolder;
   flex-basis: auto;
   flex-shrink: 1;
 }
 
 .main-title {
-  font-size: 250%;
+  font-size: 25px;
   flex-basis: auto;
   flex-shrink: 1;
 }
@@ -289,7 +289,7 @@ button {
 .item-description p {
   text-align: start;
   flex: auto;
-  font-size: 100%;
+  font-size: 20px;
   padding: 0;
   margin: 0;
 }
@@ -332,5 +332,10 @@ button {
 
   .top-container-page-title {
     font-size: 30px;
+  }
+
+  .item-description p {
+    font-size: 15px;
+    text-align: center;
   }
 }
