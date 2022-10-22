@@ -300,7 +300,7 @@ button {
     align-items: center;
   }
 
-  .item-page .middle-container iframe {
+  .item-page .middle-container iframe, .item-page .middle-container img {
     min-height: 45vh;
   }
 }
@@ -343,7 +343,7 @@ button {
     text-align: center;
   }
 
-  .item-page .middle-container iframe {
+  .item-page .middle-container iframe, .item-page .middle-container img {
     min-width: 60vw;
   }
 }
