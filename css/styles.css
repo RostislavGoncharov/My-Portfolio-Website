@@ -299,6 +299,10 @@ button {
     flex-direction: row;
     align-items: center;
   }
+
+  .item-page .middle-container iframe {
+    min-height: 45vh;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -337,5 +341,9 @@ button {
   .item-description p {
     font-size: 15px;
     text-align: center;
+  }
+
+  .item-page .middle-container iframe {
+    min-width: 60vw;
   }
 }
