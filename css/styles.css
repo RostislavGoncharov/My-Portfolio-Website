@@ -268,7 +268,7 @@ button {
   max-width: 100vw;
 }
 
-.item-page .middle-container img {
+.item-page .middle-container img, .item-page .middle-container iframe {
   width: 40vw;
   border-radius: 3vw;
   object-fit: cover;
@@ -331,7 +331,7 @@ button {
   }
 
   .top-container-page-title {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .item-description p {
