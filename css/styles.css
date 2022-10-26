@@ -104,15 +104,15 @@ button {
 }
 
 #contact-me {
-  background-color: #ECDBBA;
-  color: #C84B31;
+  background-color: #191919;
+  color: #ECDBBA;
   border-style: solid;
-  border-color: #C84B31;
+  border-color: #191919;
 }
 
 #contact-me.hover {
-  background-color: #C84B31;
-  color: #ECDBBA;
+  background-color: #ECDBBA;
+  color: #191919;
 }
 
 .mainpage-links {
@@ -169,19 +169,19 @@ button {
 .back-button input {
   padding: 1vh 2vw;
   font-size: 40px;
-  background-color: #ECDBBA;
-  color: #C84B31;
+  background-color: #191919;
+  color: #ECDBBA;
   border-style: solid;
   border-width: 1px;
-  border-color: #C84B31;
+  border-color: #191919;
   border-radius: 3vw;
   flex: 1;
   max-width: 60vw;
 }
 
 .back-button input.hover {
-  background-color: #C84B31;
-  color: #ECDBBA;
+  background-color: #ECDBBA;
+  color: #191919;
 }
 
 .mainpage-links input.hover {
